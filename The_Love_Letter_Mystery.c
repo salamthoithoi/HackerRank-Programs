@@ -82,7 +82,7 @@ Explanation
     For the first test case, abc -> abb -> aba.
     For the second test case, abcba is already a palindromic string.
     For the third test case, abcd -> abcc -> abcb -> abca = abca -> abba.
-    For the fourth test case, cba -> bba -> aba.
+    For the fourth test case, cba -> bba -> abc
 
 
 */
