@@ -52,7 +52,7 @@ Calvin can enter to and exit from any segment. Let's call the entry segment as i
 
 Paradise Highway
 
-Calvin has three types of vehicles - bike, car, and truck - represented by 1, 2 and 3, respectively. These numbers also denote the width of the vehicle.
+Calvin has three types of vehicles - bike, car,and truck - represented by 1, 2 and 3, respectively. These numbers also denote the width of the vehicle.
 
 You are given an array width of length N, where width[k] represents the width of the kth segment of the service lane. It is guaranteed that while servicing he can pass through at most 1000 segments, including the entry and exit segments.
 
@@ -118,7 +118,7 @@ Below is the representation of the lane:
     (4, 6): Here the largest allowed vehicle which can pass through the 5th segment is the car and for the 4th and 6th segment it's the truck. Hence the largest vehicle allowed in these segments is a car.
     (6, 7): In this example, the vehicle enters at the 6th segment and exits at the 7th segment. Both segments allow even trucks to pass through them. Hence the answer is 3.
     (3, 5): width[3] = width[5] = 2. While the 4th segment allows the truck, the 3rd and 5th allow up to a car. So 2 will be the answer here.
-    (0, 7): The bike is the only vehicle which can pass through the 2nd segment, which limits the strength of the whole lane to 1.
+    (0, 7): The bike is the only  vehicle which can pass through the 2nd segment, which limits the strength of the whole lane to 1.
 
 
 */
